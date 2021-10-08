@@ -93,7 +93,7 @@ Now get the values for signals:
     )
     args = parser.parse_args()
     if args.china:
-        print(vcdvcd.china())
+        pass # print(vcdvcd.china())
     else:
         vcd = VCDVCD(args.vcd_path, only_sigs=True)
         all_signals = vcd.signals
