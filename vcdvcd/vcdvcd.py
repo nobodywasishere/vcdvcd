@@ -1,7 +1,7 @@
 from __future__ import print_function
 
 import bisect
-import collections
+from collections import abc as collections
 import io
 import json
 import math
